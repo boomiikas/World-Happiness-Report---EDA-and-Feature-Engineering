@@ -18,7 +18,7 @@ We explore global and regional happiness patterns, identify key factors influenc
 - `Freedom to make life choices`
 - `Generosity`
 - `Perceptions of corruption`
-- ... plus engineered features like:
+- plus engineered features like:
   - `is_happy`
   - `happiness_rank`
   - `above_average_gdp`
@@ -27,84 +27,44 @@ We explore global and regional happiness patterns, identify key factors influenc
 **Source:** Kaggle – World Happiness Report 2024 (Yearly Updated)
 
 ---
-
-## 🔍 Mandatory Analysis
-
-### **Part 1 – Basic Data Understanding**
-- Load dataset, display first 10 rows.
-- Check shape, column names, and data types.
-- Identify missing values & duplicates.
-- Summary statistics with `.describe()`.
-- Count unique countries & regions.
-- Find happiest country & most common region.
-
-### **Part 2 – EDA (Exploratory Data Analysis)**
-- Histogram of happiness scores.
-- Top 10 & bottom 10 countries by happiness.
-- Average happiness score per region (bar chart).
-- GDP vs Happiness (scatter plot).
-- Happiness score distribution by region (boxplot).
-
-### **Part 3 – Statistics**
-- Mean, median, mode, variance, and std dev of happiness.
-- % of countries below global average.
-- Most common region in top 20 happiest countries.
-
-### **Part 4 – Linear Algebra & NumPy**
-- Create arrays & perform vector operations.
-- Dot product of GDP and happiness arrays.
-- Weighted sum of `[GDP, Social support]` using `[0.5, 0.5]`.
-- Normalize happiness scores.
-
-### **Part 5 – Calculus**
-- Given:  
-  `Wellbeing_Index = (GDP × Happiness) + 0.5 × (Happiness − 5)^2`  
-  Find derivative wrt Happiness.
-
-### **Part 6 – Feature Engineering**
-- `is_happy` (1 if score > 7 else 0).
-- `happiness_rank` (descending).
-- `above_average_gdp` (1 if above global mean GDP).
-- `life_expectancy_quartile` (quartiles from life expectancy).
-
-### **Part 7 – SQL Simulation in Pandas**
-- Countries with happiness > 7.
-- Sort by GDP per capita descending.
-- Group by region and find average happiness.
-- Top 5 regions by average happiness.
-- Countries with life expectancy > 70.
-
-### **Part 8 – Insights**
-- Happiest country.
-- Happiest region on average.
-- GDP–Happiness correlation.
-- Do richer countries always have higher happiness?
-- Region with highest average life expectancy.
-
----
-
 ## 📈 Extra Analyses
 
-### **1. Correlation Heatmap**
-Identify strongest positive & negative correlations.
+Extra Analysis on World Happiness Dataset
 
-### **2. Freedom & Corruption vs Happiness**
-Scatter plots to see relationships with happiness.
+### Key Insights
 
-### **3. Outlier Analysis**
-Find *rich but unhappy* and *poor but happy* countries.
+1. **Happiness Gap Within Regions**
+   - Regions with **higher standard deviation** in Ladder Score indicate a **larger happiness gap** between countries in the same region.
+   - Some regions contain **rich but less happy countries** or **poor but happier countries**.
+   - Boxplots reveal **outliers** in happiness scores, highlighting exceptional countries.
+     ### Key Insights
 
-### **4. Multiple Regression Prediction**
-Predict happiness score from GDP, life expectancy, and other factors.
+1. **Happiness Gap Within Regions**
+   - Regions with **higher standard deviation** in Ladder Score have a **larger happiness gap** between countries.
+   - Some regions include **rich but less happy** or **poor but happier countries**.
+   - Boxplots show **outliers**, highlighting exceptional cases.
+   <img width="974" height="869" alt="image" src="https://github.com/user-attachments/assets/993d01ec-afd5-49e6-910a-536bddfcbee6" />
 
-### **5. Happiness Inequality by Region**
-Measure variation in happiness scores (standard deviation).
+2. **Governance and Corruption**
+   - Countries with **lower corruption perception** tend to be **happier**, showing the impact of **good governance**.
+     <img width="685" height="545" alt="image" src="https://github.com/user-attachments/assets/2ec68b00-c865-4f35-a45f-37e66246df6e" />
 
-### **6. Feature Importance (Random Forest)**
-Rank features by predictive power.
 
-### **7. Happiness Efficiency Metric**
-Happiness per GDP unit – countries that achieve more happiness with less wealth.
+3. **Freedom**
+   - Higher **freedom to make life choices** correlates with **higher happiness**, emphasizing personal autonomy.
+     <img width="678" height="545" alt="image" src="https://github.com/user-attachments/assets/57282f06-d646-4406-89eb-555d9f82fbb4" />
+
+
+4. **Socioeconomic Factors**
+   - Ladder Score positively correlates with **GDP per capita, social support, and life expectancy**.
+   - **Corruption perception** has a negative correlation, reinforcing governance effects.
+     <img width="988" height="799" alt="image" src="https://github.com/user-attachments/assets/1930c992-6536-46e7-8d5c-92014b16f2db" />
+
+
+5. **Visual Trends**
+   - Average happiness by region shows **regional differences**.
+   - GDP vs Ladder Score plots reveal **countries deviating from expected trends** (rich but unhappy or poor but happy).
+     <img width="988" height="799" alt="image" src="https://github.com/user-attachments/assets/2425f42a-b455-4a89-aa99-7881aad9f7f2" />
 
 ---
 
@@ -117,7 +77,7 @@ Happiness per GDP unit – countries that achieve more happiness with less wealt
 
 ---
 
-## 📊 Key Findings (Example)
+## 📊 Key Findings 
 - **Finland** is the happiest country in 2024.
 - **Western Europe** is the happiest region on average.
 - GDP per capita correlates strongly with happiness (~0.78), but some countries achieve high happiness despite lower GDP.
