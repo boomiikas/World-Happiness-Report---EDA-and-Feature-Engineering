@@ -85,27 +85,38 @@ We explore global and regional happiness patterns, identify key factors influenc
 
 ## 📈 Extra Analyses
 
-### **1. Correlation Heatmap**
-Identify strongest positive & negative correlations.
+Extra Analysis on World Happiness Dataset
 
-### **2. Freedom & Corruption vs Happiness**
-Scatter plots to see relationships with happiness.
+This section provides deeper insights and observations from the dataset beyond the mandatory analysis.
 
-### **3. Outlier Analysis**
-Find *rich but unhappy* and *poor but happy* countries.
+### Key Insights
 
-### **4. Multiple Regression Prediction**
-Predict happiness score from GDP, life expectancy, and other factors.
+1. **Happiness Gap Within Regions**
+   - Regions with **higher standard deviation** in Ladder Score indicate a **larger happiness gap** between countries in the same region.
+   - Some regions contain **rich but less happy countries** or **poor but happier countries**.
+   - Boxplots reveal **outliers** in happiness scores, highlighting exceptional countries.
 
-### **5. Happiness Inequality by Region**
-Measure variation in happiness scores (standard deviation).
+2. **Happiness and Governance**
+   - Countries with **lower perceptions of corruption** tend to be **happier**.
+   - This shows that **good governance and transparency** positively impact happiness levels.
 
-### **6. Feature Importance (Random Forest)**
-Rank features by predictive power.
+3. **Freedom and Happiness**
+   - Countries where people enjoy **higher freedom to make life choices** tend to have **higher Ladder Scores**.
+   - Suggests personal autonomy is an important contributor to happiness.
 
-### **7. Happiness Efficiency Metric**
-Happiness per GDP unit – countries that achieve more happiness with less wealth.
+4. **Correlation with Socioeconomic Factors**
+   - Ladder Score is **highly positively correlated** with:
+     - **GDP per capita**
+     - **Social support**
+     - **Healthy life expectancy**
+   - Indicates that **wealth, social networks, and health** are strong drivers of happiness.
+   - **Perceptions of corruption** tend to have a **negative correlation**, reinforcing the impact of governance on happiness.
 
+5. **Visual Trends**
+   - Average happiness by region highlights **regional differences** in wellbeing.
+   - Scatter plots of GDP vs Ladder Score reveal countries that **deviate from expected trends** (rich but unhappy or poor but happy).
+
+These extra insights provide a deeper understanding of the **drivers of happiness**, **regional disparities**, and **governance effects** beyond basic averages.
 ---
 
 ## 🛠️ Tech Stack
