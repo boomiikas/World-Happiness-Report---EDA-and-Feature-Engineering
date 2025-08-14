@@ -77,7 +77,7 @@ Extra Analysis on World Happiness Dataset
 
 ---
 
-## 📊 Key Findings (Example)
+## 📊 Key Findings 
 - **Finland** is the happiest country in 2024.
 - **Western Europe** is the happiest region on average.
 - GDP per capita correlates strongly with happiness (~0.78), but some countries achieve high happiness despite lower GDP.
