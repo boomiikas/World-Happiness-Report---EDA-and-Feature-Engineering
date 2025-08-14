@@ -18,7 +18,7 @@ We explore global and regional happiness patterns, identify key factors influenc
 - `Freedom to make life choices`
 - `Generosity`
 - `Perceptions of corruption`
-- ... plus engineered features like:
+- plus engineered features like:
   - `is_happy`
   - `happiness_rank`
   - `above_average_gdp`
