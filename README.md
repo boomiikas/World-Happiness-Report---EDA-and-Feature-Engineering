@@ -81,7 +81,7 @@ Analysis on World Happiness Dataset
 ## 🚀 How to Run
 1. Download the dataset from Kaggle.
 2. Place it in the project folder as `world_happiness_2024.csv`.
-3. Run `analysis.ipynb` in Jupyter Notebook or Google Colab.
+3. Run `happy.ipynb` in Jupyter Notebook or Google Colab.
 4. Explore charts and insights.
 
 ---
