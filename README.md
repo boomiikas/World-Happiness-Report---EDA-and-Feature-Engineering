@@ -27,17 +27,9 @@ We explore global and regional happiness patterns, identify key factors influenc
 **Source:** Kaggle – World Happiness Report 2024 (Yearly Updated)
 
 ---
-## 📈 Extra Analyses
+## 📈 Analyses
 
-Extra Analysis on World Happiness Dataset
-
-### Key Insights
-
-1. **Happiness Gap Within Regions**
-   - Regions with **higher standard deviation** in Ladder Score indicate a **larger happiness gap** between countries in the same region.
-   - Some regions contain **rich but less happy countries** or **poor but happier countries**.
-   - Boxplots reveal **outliers** in happiness scores, highlighting exceptional countries.
-     ### Key Insights
+Analysis on World Happiness Dataset
 
 1. **Happiness Gap Within Regions**
    - Regions with **higher standard deviation** in Ladder Score have a **larger happiness gap** between countries.
